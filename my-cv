@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My CV</title>
+</head>
+<body>
+    <table width="700" align="center" border="2">
+
+        <tr>
+            <td width="150" align="center"><img src="images/me.jpg" alt="" height="100px"></td>
+            <td colspan="2">
+                <h2>Usama Terniqi</h2>
+                
+            </td>
+        </tr>
+        <tr>
+            <td colspan="3">
+                <h2 align="center"><strong>Education</strong></h2>
+                <ul>
+                    <li><b>Bachelor</b></li>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <li><b>Master</b></li>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic neque, suscipit veniam perspiciatis sint fuga dolorem est possimus, reprehenderit unde sunt? Labore nostrum autem fuga. Ullam dignissimos expedita beatae odit.</p>
+                </ul>
+            </td>
+        </tr>
+
+        <tr>
+            <td colspan="3" align="center"><strong><h2>Skills</h2></strong></td>
+        </tr>
+
+        <tr>
+            <td>
+                <ul>
+                    <li>HTML5</li>
+                    <li>CSS3</li>
+                    <li>Javascript</li>
+                </ul>
+            </td>
+            <td>
+                <ul>
+                    <li>Adobe</li>
+                    <li>Photoshop</li>
+                </ul>
+            </td>
+            <td>
+                <ul>
+                    <li>English</li>
+                </ul>
+            </td>
+        </tr>
+
+        <tr>
+            <td colspan="3" align="center"><h2>Contact Form</h2></td>
+        </tr>
+        <tr>
+            <td colspan="3" align="center">
+                <form action="#"><br>
+                    <label for="gender">Gender</label>
+            
+                    <input type="radio" name="gender" id="female" required>
+                    <label for="female">Female</label>
+                    <input type="radio" name="gender" id="masculine" required>
+                    <label for="maskuline">Masculine</label>
+                    <br><br>
+                    <label for="name">Name</label>
+                    <input type="text" placeholder="Name" id="name" minlength="5" max="20" required> <br><br>
+                    <label for="email">Email</label>
+                    <input type="text" name="email" id="email" placeholder="Email" required> <br><br>
+                    <label for="tel">Phone</label>
+                    <input type="tel" name="phone"  placeholder="Your number" pattern="[0-9]+" required> <br><br>
+                    <textarea name="message" id="message" cols="30" rows="5" placeholder="Enter your message"></textarea> <br><br>
+
+                    <select name="edu" id="edu" required>
+                        <option value="">Choose your education</option>
+                        <optgroup label="Graduate">
+                            <option value="Bachelor">Bachelor</option>
+                            <option value="Master">Master</option>
+                            <option value="Phd">Phd</option>
+                        </optgroup>
+                    </select>
+                    <select name="fc" id="fc" required>
+                        <option value="">Choose your faculty</option>
+                        <optgroup label="Faculty">
+                            <option value="Mitrovice">Mitrovice</option>
+                            <option value="Prishtine">Prishtine</option>
+                        </optgroup>
+                    </select> <br><br>
+                    <button type="submit">Submit</button> <br><br>
+                </form>
+            </td>
+            
+        </tr>
+    </table>
+</body>
+</html>
